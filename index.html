@@ -1,15 +1,85 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Portofolio Ipan</title>
+    <title>Portfolio Ipan</title>
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #0f172a;
+            color: white;
+            text-align: center;
+            margin: 0;
+        }
+
+        header {
+            background-color: #111827;
+            padding: 20px;
+            font-size: 28px;
+            font-weight: bold;
+        }
+
+        .container {
+            padding: 30px;
+        }
+
+        img {
+            border-radius: 10px;
+            margin-top: 10px;
+        }
+
+        .card {
+            background-color: #1f2933;
+            margin: 20px auto;
+            padding: 20px;
+            width: 80%;
+            border-radius: 10px;
+        }
+
+        h2 {
+            color: #38bdf8;
+        }
+
+    </style>
 </head>
+
 <body>
 
-<h1>Ipan Saepul Akbar</h1>
+<header>
+    Ipan Saepul Akbar Portfolio
+</header>
 
-<p>Saya adalah mahasiswa S1 Teknik Elektro Telkom University yang memiliki minat pada bidang elektronika, robotika, dan otomotif.</p>
+<div class="container">
 
-<img src="foto.jpg" width="200">
+    <img src="foto.jpg" width="200">
+
+    <div class="card">
+        <h2>Tentang Saya</h2>
+        <p>
+            Saya adalah mahasiswa S1 Teknik Elektro Telkom University yang memiliki minat pada bidang
+            elektronika, robotika, dan otomotif. Terbiasa melakukan perbaikan perangkat elektronik,
+            bekerja dalam tim, serta memiliki motivasi tinggi untuk belajar dan berkembang di dunia teknologi.
+        </p>
+    </div>
+
+    <div class="card">
+        <h2>Skill</h2>
+        <p>Elektronika</p>
+        <p>Robotika</p>
+        <p>ESP32 / Arduino</p>
+        <p>Service Laptop & HP</p>
+        <p>Public Speaking</p>
+        <p>Excel / Spreadsheet</p>
+    </div>
+
+    <div class="card">
+        <h2>Project</h2>
+        <p>Robot ESP32</p>
+        <p>YOLO Object Detection</p>
+        <p>IoT Monitoring</p>
+    </div>
+
+</div>
 
 </body>
 </html>
