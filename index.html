@@ -1,9 +1,14 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Ipan Saepul Akbar </title>
+    <title>Ipan Saepul Akbar</title>
 
     <style>
+
+        html {
+            scroll-behavior: smooth;
+        }
+
         body {
             font-family: Arial, sans-serif;
             background-color: #0f172a;
@@ -17,6 +22,17 @@
             padding: 20px;
             font-size: 28px;
             font-weight: bold;
+        }
+
+        header a {
+            color: #38bdf8;
+            text-decoration: none;
+            margin: 0 10px;
+            font-size: 16px;
+        }
+
+        header a:hover {
+            color: white;
         }
 
         .container {
@@ -50,39 +66,54 @@
 <body>
 
 <header>
+
     Ipan Saepul Akbar Portfolio
     <br>
-    <small>Electrical Engineering | Robotics | Creator | Freelancer</small>
+
+    <small>
+
+        <a href="#tentang">Tentang</a> |
+        <a href="#skill">Skill</a> |
+        <a href="#project">Project</a> |
+        <a href="#pengalaman">Pengalaman</a> |
+        <a href="#tujuan">Tujuan</a>
+
+    </small>
+
 </header>
+
 
 <div class="container">
 
     <img src="profil.jpeg" width="200">
 
-    <div class="card">
+
+    <div class="card" id="tentang">
+
         <h2>Tentang Saya</h2>
 
         <p>
         Saya adalah mahasiswa S1 Teknik Elektro Telkom University yang memiliki minat pada bidang elektronika,
-        robotika, dan sistem berbasis mikrokontroler. Saya terbiasa melakukan perancangan, perbaikan,
-        dan pengembangan perangkat elektronik sebagai bagian dari pembelajaran dan hobi.
+        robotika, dan sistem berbasis mikrokontroler.
         </p>
 
         <p>
-        Selain di bidang teknik, saya juga aktif sebagai live streamer dan afiliator di platform TikTok dan Shopee,
-        serta bekerja sebagai driver ShopeeFood secara part-time. Pengalaman tersebut membuat saya terbiasa
-        berkomunikasi dengan banyak orang, bekerja di lapangan, dan mengatur waktu dengan baik.
+        Selain di bidang teknik, saya juga aktif sebagai live streamer dan afiliator di TikTok & Shopee,
+        serta bekerja sebagai driver ShopeeFood secara part-time.
         </p>
 
         <p>
-        Saya juga sering membantu mahasiswa dalam tugas dan project teknik, sehingga terbiasa menjelaskan materi,
-        menyelesaikan masalah, serta bekerja secara mandiri maupun dalam tim.
+        Saya juga sering membantu mahasiswa dalam tugas dan project teknik,
+        sehingga terbiasa menjelaskan materi, menyelesaikan masalah,
+        dan bekerja secara mandiri maupun dalam tim.
         </p>
 
     </div>
 
 
-    <div class="card">
+
+    <div class="card" id="skill">
+
         <h2>Skill</h2>
 
         <p>Elektronika & Rangkaian</p>
@@ -98,7 +129,9 @@
     </div>
 
 
-    <div class="card">
+
+    <div class="card" id="project">
+
         <h2>Project</h2>
 
         <p>Robot berbasis ESP32</p>
@@ -110,7 +143,9 @@
     </div>
 
 
-    <div class="card">
+
+    <div class="card" id="pengalaman">
+
         <h2>Pengalaman</h2>
 
         <p>Live Streamer TikTok</p>
@@ -121,11 +156,14 @@
     </div>
 
 
-    <div class="card">
+
+    <div class="card" id="tujuan">
+
         <h2>Tujuan</h2>
 
         <p>
-        Saya ingin mengembangkan kemampuan di bidang teknik elektro, robotika, dan teknologi digital,
+        Saya ingin mengembangkan kemampuan di bidang teknik elektro,
+        robotika, dan teknologi digital,
         serta menggabungkannya dengan dunia kreatif dan industri modern.
         </p>
 
